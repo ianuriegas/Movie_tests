@@ -1,0 +1,24 @@
+- Francisco's driving
+
+Checklist:
+- Covid tests
+- Sleeping stuff
+- Bathroom stuff
+- 1 extra set of Clothes
+- charger/laptop/paper/power strip
+- Download HackTX app
+- Student id's for check in
+
+Schedule:
+SATURDAY
+- Leave @ 7am
+- Buccee's run (breakfast)
+- Get there around 8:30am-ish
+- Check-in @ 9am
+- Initial Submission due @ 11pm
+
+SUNDAY
+- Final submission due @ 11am
+
+Project:
+- Movie watchlist / reccomendations from TMBD Api
