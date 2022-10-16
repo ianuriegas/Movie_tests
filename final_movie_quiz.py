@@ -50,22 +50,22 @@ def main():
     movie_num_one = Data(rand_int_one, arr)
     one_title = movie_num_one.get_title()
     one_popularity = movie_num_one.get_popularity()
-    print(one_popularity)
+    # print(one_popularity)
 
     movie_num_two = Data(rand_int_two, arr)
     two_title = movie_num_two.get_title()
     two_popularity = movie_num_two.get_popularity()
-    print(two_popularity)
+    # print(two_popularity)
 
     movie_num_three = Data(rand_int_three, arr)
     three_title = movie_num_three.get_title()
     three_popularity = movie_num_three.get_popularity()
-    print(three_popularity)
+    # print(three_popularity)
 
     movie_num_four = Data(rand_int_four, arr)
     four_title = movie_num_four.get_title()
     four_popularity = movie_num_four.get_popularity()
-    print(four_popularity)
+    # print(four_popularity)
 
     if one_popularity >= two_popularity and one_popularity >= three_popularity and one_popularity >= four_popularity:
         answer = "A"
