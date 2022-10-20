@@ -24,7 +24,7 @@ class data:
 
 def read_csv():
     arr = []
-    with open('movieid.csv', 'r') as fd:
+    with open('../movieid.csv', 'r') as fd:
         reader = csv.reader(fd)
         for row in reader:
             arr.append(row)

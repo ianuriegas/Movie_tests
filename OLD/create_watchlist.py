@@ -19,7 +19,7 @@ print("You are logged in as %s. Your account ID is %s." % (details.username, det
 print("This session expires at: %s" % auth.expires_at)
 
 watchlist = []
-with open('watchlist.csv', 'r') as fd:
+with open('../watchlist.csv', 'r') as fd:
     reader = csv.reader(fd)
     for row in reader:
         # print(row)
@@ -38,8 +38,8 @@ while True:
     else:
         watchlist.append([first_result.title])
         if len(watchlist) == 0:
-            with open('watchlist.csv', 'w') as fd:
+            with open('../watchlist.csv', 'w') as fd:
                 fd.write(str(first_result.title)+"\n")
         else:
-            with open('watchlist.csv', 'a') as fd:
+            with open('../watchlist.csv', 'a') as fd:
                 fd.write(str(first_result.title)+"\n")
