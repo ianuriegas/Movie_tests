@@ -12,7 +12,9 @@ Also (Notes):
 Running the program (Bash scripts):
 
 ./quiz.bash
+
 ./reccomended.bash
+
 ./watchlist.bash
 
 Packages:
